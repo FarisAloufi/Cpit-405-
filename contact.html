@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <nav>
+        <div class="left">
+            <a href="/">Faris Aloufi</a> 
+        </div>
+        <div class="right">
+            <a href="index.html">CV</a> 
+            <a href="schedule.html">Class schedule</a> 
+            <a href="contact.html">Contact</a> 
+        </div>
+    </nav>
+
+ 
+       <main>
+        <section id="contact">
+            <div class="contact-section">
+                <div class="left-section">
+                    
+                    <div class="profile-image">
+                        <img src="images/Image.jpg" alt="Faris headshot">
+                    </div>
+                    <h3 id="contact-title">Contact</h3> 
+                    <div class="contact-info-details">
+                        <p>Email: <a href="mailto:feidaloufi@stu.kau.edu.sa">feidaloufi@stu.kau.edu.sa</a></p>
+                        <p>Phone: <a href="tel:+966536505053">+966536505053</a></p>
+                         <div class="social-links">
+                        <a href="https://twitter.com/F21r_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/FarisAloufi" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    </div>
+                 
+                </div>
+                <div class="right-section">
+            <h2>Contact</h2>
+            <form action="https://webhook.site/d0ab4002-4348-401a-b51c-bcb48b7e5c75" method="POST">
+               
+                <label for="name">Name (Required)</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+             
+                <label for="email">Email (Optional)</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                
+                <label for="message">Message (Required)</label>
+                <textarea id="message" name="message" rows="10" placeholder="Enter your message" required></textarea>
+
+                
+                <label>Message Type</label>
+                <div>
+                    <input type="radio" id="inquiry" name="message_type" value="Inquiry" required>
+                    <label for="inquiry">Inquiry</label>
+                    <input type="radio" id="complaint" name="message_type" value="Complaint" required>
+                    <label for="complaint">Complaint</label>
+                </div>
+
+               
+                <button type="submit">Send</button>
+            </form>
+            </div>
+        </section>
+        <footer><p>© 2025 Faris Aloufi. All rights reserved.</p></footer>
+    </main>
+</body>
+
+</html>
